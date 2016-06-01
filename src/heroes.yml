@@ -1,0 +1,160 @@
+heroes:
+- name: Bastion
+  role: Defense
+  weak_against:
+    - Symmetra
+    - Reaper
+    - Pharah
+    - Junkrat
+    - Hanzo
+    - Widowmaker
+    - Tracer
+    - Genji
+- name: D.VA
+  role: Tank
+  weak_against:
+    - Zarya
+    - Lúcio
+    - Zenyatta
+    - Symmetra
+    - Mei
+    - D.VA
+- name: Genji
+  role: Offense
+  weak_against:
+    - Torbjörn
+    - Winston
+    - Zarya
+    - Mei
+- name: Hanzo
+  role: Defense
+  weak_against:
+    - Winston
+    - Widowmaker
+    - Tracer
+    - D.VA
+- name: Junkrat
+  role: Defense
+  weak_against:
+    - Widowmaker
+    - Pharah
+    - McCree
+    - Junkrat
+- name: Lúcio
+  role: Support
+  weak_against:
+    - Pharah
+    - McCree
+    - Mei
+- name: McCree
+  role: Offense
+  weak_against:
+    - Widowmaker
+    - Reinhardt
+    - Genji
+- name: Mei
+  role: Defense
+  weak_against:
+    - Reaper
+    - Widowmaker
+    - Pharah
+    - Junkrat
+- name: Mercy
+  role: Support
+  weak_against:
+    - "Soldier: 76"
+    - Genji
+    - Bastion
+    - Widowmaker
+    - Tracer
+    - McCree
+- name: Pharah
+  role: Offense
+  weak_against:
+    - D.VA
+    - "Soldier: 76"
+    - Roadhog
+    - McCree
+- name: Reaper
+  role: Offense
+  weak_against:
+    - Lúcio
+    - Pharah
+    - McCree
+    - Junkrat
+- name: Reinhardt
+  role: Tank
+  weak_against:
+    - D.VA
+    - Bastion
+    - Pharah
+    - Roadhog
+    - Reaper
+- name: Roadhog
+  role: Tank
+  weak_against:
+    - Zenyatta
+    - Reaper
+    - Genji
+    - D.VA
+- name: "Soldier: 76"
+  role: Offense
+  weak_against:
+    - Reinhardt
+    - Tracer
+    - Mei
+    - Genji
+- name: Symmetra
+  role: Support
+  weak_against:
+    - Roadhog
+    - Pharah
+    - Junkrat
+- name: Torbjörn
+  role: Defense
+  weak_against:
+    - Reinhardt
+    - Hanzo
+    - Genji
+    - "Soldier: 76"
+    - Widowmaker
+    - Pharah
+    - Junkrat
+- name: Tracer
+  role: Offense
+  weak_against:
+    - Roadhog
+    - "Soldier: 76"
+    - Mei
+    - McCree
+- name: Widowmaker
+  role: Defense
+  weak_against:
+    - Tracer
+    - Reinhardt
+    - Hanzo
+    - Winston
+    - Genji
+    - D.VA
+- name: Winston
+  role: Tank
+  weak_against:
+    - Bastion
+    - Zenyatta
+    - Zarya
+    - Lúcio
+    - Reaper
+    - Mei
+    - McCree
+- name: Zarya
+  role: Tank
+  weak_against:
+    - Reaper
+    - Roadhog
+    - Pharah
+- name: Zenyatta
+  role: Support
+  weak_against:
+    - Widowmaker
+    - Tracer
+    - Hanzo
