@@ -31,15 +31,11 @@ class Hero:
 
     def isWeakness(self, opponent):
         """Check if the given opponent hero is a weaknes for this hero"""
-        if opponent.name in self.weak_against:
-            return True
-        return False
+        return opponent.name in self.weak_against
 
     def isNemesis(self, opponent):
         """Check if the this hero is a weaknes for a given opponent hero"""
-        if self.name in opponent.weak_against:
-            return True
-        return False
+        return self.name in opponent.weak_against
 
 
 class HeroesResolver:
@@ -55,7 +51,7 @@ class HeroesResolver:
     def loadHeroes(self):
         """Loading heroes from YAML file to memory"""
         logging.debug("loadHeroes called")
-        with open("heroes.yml", 'r') as stream:
+        with open("../dist/heroes.yml", 'r') as stream:
             try:
                 for heroData in yaml.load(stream)['heroes']:
                     self.heroes.append(Hero(heroData))
